@@ -675,7 +675,7 @@ public class SecurityWrapperRequest extends HttpServletRequestWrapper implements
         String path = getHttpServletRequest().getServletPath();
         String clean = "";
         try {
-            clean = ESAPI.validator().getValidInput("HTTP servlet path: " + path, path, "HTTPServletPath", 100, false);
+            clean = ESAPI.validator().getValidInput("HTTP servlet path: " + path, path, "HTTPServletPath", 100, true);
         } catch (ValidationException e) {
             // already logged
         }
