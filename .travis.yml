@@ -1,9 +1,1 @@
 language: java
-deploy:
-  provider: releases
-  api_key:
-secure: "aQKP8QmTVygKqRSrnNo4qucL51stBdVwGNgCffciyR1mVhgl5qXzImJuTxwROc4A7r3SaV/ZO9A3drLIJ0Ir3eq3X9z8zwKTofO39bpOQ/HMo9+WEFqNb8j6PdkB90jkSTV0Qn9YQN+50sytLYtI7IpQ1ZHtVbXlXugl/ANopNcqBgBSjySxu7QOvpsEOV6H32Nx9S1d/jMwMADkPJh/H1VUmbPwWR7a+90o+Kl6+E5GTZ54/NKyYIM2mRZElrpGQrfnYKkSvkZTHyEyeO7y8Zd8S6HhetTLNlSeZ1AS0RutqIVFXNZuAZtFttvMkBGH6q73jDUEoF3dzypesTpzaHQwWpPKk3ANsTZzvPYLDnYlvWEkBO+J+uznce7aqxxKR0C97QEiFsAOE4aT75uUqXDOJvmy7K2Tp2QRqIwVVmHgnklZpGpTN0En5iBaIKf+Kn1H+cSwIGwEkxvkcib23TWT06jk2JrikDxT+vag4sp9LeZ81X/EnjzL9aDB7+LKufSBRyMBmdFXw7TE5Wftv5yZu8Vi7IKCAhCIYZOXK+vXqESTI21dUmiHe9SOShhbnAofHwyyR5H9AwIm0nY8p5YOMX1mJEBujYX9TI1PlSkjoKknw5XlvVhJU/fPXF7yl6n7oNzC+BkQnnLtd1XE7xnKR41aucBpozlcndaZo7I="
-file: "target/esapi-2.1.1-SNAPSHOT.jar"
-  skip_cleanup: true
-  on:
-    tags: true
