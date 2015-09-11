@@ -1,1 +1,8 @@
 language: java
+deploy:
+  provider: releases
+  api_key:
+    secure: owyUQHuK+pxJy7Mu1ayxDp+BQQZZavV/zaClwPsKt19eRRRUYJBc0r9KAliWpqbjpszZE/Qyz8Y/p9+NouMAEZjuDM41G1dFGATh+YkI7VtvYUUveSItX3xSgQUN6gZJSkV8i6X1/2EE2R4f8hLAdf9lmnGW3YSb4237e16mu8PcBsSYFrpo7S3QOtDETKK/EYFs9aBQlgdTuacnSKEMJ18HWX0zgrWXoCqrKfjxxjcM9JT7O6qDrl2f1X1qxohaTaJWuPqQlBlHQqZG4kEzl175jSF+cDBXT9RtQlVpbTXSFQBFJNR7Ax+5A480i2R7N9xRyZtVKcRyeF8jImavTrjhg+B2HsM+qPaQtrfL6ky6sSIshS/dhOmxiE557RfrGiJYc0f/cftMpObzDObxB7c0gJDQ9Mol0YcYTfjUNA2tbVERGl2FRvpVMuWKBIfA+MqgFyzsLgQ7iBagRCi5o05mVMpZX8SLm/F/piNU1akUPVv7ccc1Rs/62xyrIr0sckZIfDb4Jn3UW3Ro/gP1MThEmY1bfG5XrQviCH2EeCiw/ec7XyU6s16vmKCoNdXaa/ZuarfTiJ1fOhayNGmOz2Ml29qFZUFng8pz07SLTNROrCE1bgFpbVjpkKW8SaQlQdU3o27O4ZBYZQxij/+H/6hpOSPSF/rpuLutqb73Wrw=
+  file: target/esapi-2.1.1-SNAPSHOT.jar
+  on:
+    repo: andyianriley/esapi-java-legacy
